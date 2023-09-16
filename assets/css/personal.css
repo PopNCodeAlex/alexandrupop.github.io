@@ -1,0 +1,19 @@
+.personalInfo {
+  width: "100%";
+  flex-direction: "row-reverse";
+  justify-content: center;
+  align-items: center;
+}
+.learnMoreSection {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.codeIconStyle {
+  align-self: center;
+  justify-self: center;
+  width: 100px;
+  height: 100px;
+  margin-right: 100px;
+}
