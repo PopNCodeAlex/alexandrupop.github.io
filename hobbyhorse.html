@@ -33,24 +33,32 @@
         </header>
         <section class="wrapper style5">
           <div class="inner">
-            <h3>Smaller title</h3>
+            <h3>The concept behind the application</h3>
             <p>
-              p4
-            </p>
-
-            <p>
-              p3
+              The app was created to help skaters find skating outings no matter
+              the skating style they practice. A skater can register and create
+              multiple profiles that are linked to an account, one for each
+              existing skating style one might practice:
+              <b>casual skating</b>, <b>street skating</b>,
+              <b>speed skating</b>. A user can suggest their location and time
+              availability along with other skating preferences through the
+              creation of a 'schedule'. This allows the app to automatically
+              create events with skaters that match.
             </p>
 
             <hr />
 
-            <h4>Smaller ttitle</h4>
+            <h4>Design</h4>
             <p>
-              par2
-            </p>
-
-            <p>
-              par1
+              The frontend is created with <b>React Native Expo</b>, the library
+              used for some of the components and styling is React Native Paper.
+              The authentication is implemented through Firebase Authentication.
+              The backend has a microservices architecture. The two services, a
+              RESTful API and a Worker Service, communicate through asynchronous
+              channels. The processing required for the automatic event
+              generation is handled by the worker service. Some of the
+              processign jobs that reach the API (since the frontend
+              communicates only with the API) are passed to the worker service.
             </p>
           </div>
         </section>

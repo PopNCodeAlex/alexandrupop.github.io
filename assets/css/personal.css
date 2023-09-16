@@ -5,15 +5,19 @@
   align-items: center;
 }
 .learnMoreSection {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
 
 .codeIconStyle {
-  align-self: center;
-  justify-self: center;
-  width: 100px;
-  height: 100px;
   margin-right: 100px;
+}
+
+.imageHeader {
+  height: "100%";
+  background-image: url("../images/googleIt.jpg");
+  background-size: auto; /* Scale the image to cover the entire header */
+  color: #fff; /* Set text color for better visibility */
 }
