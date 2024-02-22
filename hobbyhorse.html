@@ -13,6 +13,7 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/personal.css" />
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -33,10 +34,14 @@
         </header>
         <section class="wrapper style5">
           <div class="inner">
-            <h3>The concept behind the application</h3>
+            <h3>Why a skating application?(Purpose of the project)</h3>
             <p>
-              The app was created to help skaters find skating outings no matter
-              the skating style they practice. A skater can register and create
+              The app targets skaters without a suitable skating pal. It helps
+              skaters find skating outings no matter the skating style they
+              practice and their experience. Moreover, there is no need for
+              skaters to manually search and reach out to others, because the
+              app does that for the skaters, it creates an "event" and all
+              suitable skaters are invited. A skater can register and create
               multiple profiles that are linked to an account, one for each
               existing skating style one might practice:
               <b>casual skating</b>, <b>street skating</b>,
@@ -45,6 +50,7 @@
               creation of a 'schedule'. This allows the app to automatically
               create events with skaters that match.
             </p>
+
 
             <hr />
 
@@ -60,6 +66,74 @@
               processign jobs that reach the API (since the frontend
               communicates only with the API) are passed to the worker service.
             </p>
+          </div>
+        </section>
+
+        <div class="carousel">
+          <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+          <div class="slide-container">
+            <div class="slide active">
+              <img
+                src="assets/images/hobbyHorseProject/addingSchedule.jpg"
+                alt="Portrait 1"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="assets/images/hobbyHorseProject/addingSkills.jpg"
+                alt="Add skills image"
+              />
+              <div style="margin: 2rem">
+                <h1>Customize your skating profile</h1>
+                <p>
+                  In the profile section skaters can add for each skating
+                  profile a set of skills along with their mastery level. This
+                  would help the application provide one the best event
+                  suggestions with skaters that would make their time
+                  worthwhile.
+                </p>
+              </div>
+            </div>
+            <div class="slide">
+              <img
+                src="assets/images/hobbyHorseProject/creatingRoute.jpg"
+                alt="Route Creation image"
+              />
+              <div style="margin: 2rem">
+                <h1>Suggest skating routes through your city</h1>
+                <p>
+                  Aggresive skaters can create "events" by suggesting a route +
+                  time availability and the right skaters would be suggested for
+                  them
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+
+        <script src="assets/js/carousel.js"></script>
+
+        <section class="wrapper style5">
+          <div class="inner">
+            <h3>Why a skating application?(Purpose of the project)</h3>
+            <p>
+              The app targets skaters without a suitable skating pal. It helps
+              skaters find skating outings no matter the skating style they
+              practice and their experience. Moreover, there is no need for
+              skaters to manually search and reach out to others, because the
+              app does that for the skaters, it creates an "event" and all
+              suitable skaters are invited. A skater can register and create
+              multiple profiles that are linked to an account, one for each
+              existing skating style one might practice:
+              <b>casual skating</b>, <b>street skating</b>,
+              <b>speed skating</b>. A user can suggest their location and time
+              availability along with other skating preferences through the
+              creation of a 'schedule'. This allows the app to automatically
+              create events with skaters that match.
+            </p>
+
+            <hr />
           </div>
         </section>
       </article>

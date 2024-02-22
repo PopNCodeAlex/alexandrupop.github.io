@@ -22,3 +22,53 @@
   background-size: auto; /* Scale the image to cover the entire header */
   color: #fff; /* Set text color for better visibility */
 }
+
+.standardPadding {
+  padding: 5rem;
+}
+
+.centerItems {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Generated for carousel (Below)*/
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2rem 0rem;
+}
+
+.slide-container {
+  flex: 1;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+}
+
+.active {
+  display: flex;
+  flex-direction: row;
+}
+
+.slide img {
+  height: auto;
+  width: 15rem;
+}
+
+.prev,
+.next {
+  background-color: #1D242A;
+  color: #fff;
+  border: 0px;
+  margin: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Generated for carousel (Above)*/
