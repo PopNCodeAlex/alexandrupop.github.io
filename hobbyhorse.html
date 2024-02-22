@@ -34,37 +34,27 @@
         </header>
         <section class="wrapper style5">
           <div class="inner">
-            <h3>Why a skating application?(Purpose of the project)</h3>
+            <h3>Why a skating application?</h3>
             <p>
               The app targets skaters without a suitable skating pal. It helps
               skaters find skating outings no matter the skating style they
               practice and their experience. Moreover, there is no need for
-              skaters to manually search and reach out to others, because the
-              app does that for the skaters, it creates an "event" and all
-              suitable skaters are invited. A skater can register and create
-              multiple profiles that are linked to an account, one for each
-              existing skating style one might practice:
-              <b>casual skating</b>, <b>street skating</b>,
-              <b>speed skating</b>. A user can suggest their location and time
-              availability along with other skating preferences through the
-              creation of a 'schedule'. This allows the app to automatically
-              create events with skaters that match.
+              skaters to manually search and reach out to others. HobbyHorse
+              automatically creates "events" and all suitable skaters get an
+              invite.
             </p>
-
 
             <hr />
 
-            <h4>Design</h4>
+            <h3>How does the app work?</h3>
             <p>
-              The frontend is created with <b>React Native Expo</b>, the library
-              used for some of the components and styling is React Native Paper.
-              The authentication is implemented through Firebase Authentication.
-              The backend has a microservices architecture. The two services, a
-              RESTful API and a Worker Service, communicate through asynchronous
-              channels. The processing required for the automatic event
-              generation is handled by the worker service. Some of the
-              processign jobs that reach the API (since the frontend
-              communicates only with the API) are passed to the worker service.
+              A skater can register and create multiple profiles that are linked
+              to an account, one for each existing skating style one might
+              practice: <b>casual skating</b>, <b>street skating</b>,
+              <b>speed skating</b>. A user can suggest their location and time
+              availability along with other skating preferences through the
+              creation of a 'schedule'. This is required for the auto generation
+              of events.
             </p>
           </div>
         </section>
@@ -75,8 +65,17 @@
             <div class="slide active">
               <img
                 src="assets/images/hobbyHorseProject/addingSchedule.jpg"
-                alt="Portrait 1"
+                alt="Create schedule screen"
               />
+              <div style="margin: 2rem">
+                <h1>Create schedule so HobbyHorse can recommend events</h1>
+                <p>
+                  This screen shows the steps one takes to suggest their time
+                  and location availabilty. They are also prompted to select age
+                  and gender preferences. All this is taken into account when
+                  events are created.
+                </p>
+              </div>
             </div>
             <div class="slide">
               <img
@@ -116,24 +115,18 @@
 
         <section class="wrapper style5">
           <div class="inner">
-            <h3>Why a skating application?(Purpose of the project)</h3>
+            <h4>Project Structure and Technology Stack Overview</h4>
             <p>
-              The app targets skaters without a suitable skating pal. It helps
-              skaters find skating outings no matter the skating style they
-              practice and their experience. Moreover, there is no need for
-              skaters to manually search and reach out to others, because the
-              app does that for the skaters, it creates an "event" and all
-              suitable skaters are invited. A skater can register and create
-              multiple profiles that are linked to an account, one for each
-              existing skating style one might practice:
-              <b>casual skating</b>, <b>street skating</b>,
-              <b>speed skating</b>. A user can suggest their location and time
-              availability along with other skating preferences through the
-              creation of a 'schedule'. This allows the app to automatically
-              create events with skaters that match.
+              The frontend is created with <b>React Native Expo</b>, the library
+              used for some of the components and styling is React Native Paper.
+              The authentication is implemented through Firebase Authentication.
+              The backend has a microservices architecture. The two services, a
+              RESTful API and a Worker Service, communicate through asynchronous
+              channels. The processing required for the automatic event
+              generation is handled by the worker service. Some of the
+              processign jobs that reach the API (since the frontend
+              communicates only with the API) are passed to the worker service.
             </p>
-
-            <hr />
           </div>
         </section>
       </article>
